@@ -10,9 +10,9 @@
 
 ---
 
-## 1. My idea in a nutshell
+## 1. Summary
 
-My project, SmartExpense AI, is a proposed tool that automatically categorizes business expenses from transaction descriptions. My aim is to reduce manual bookkeeping and help small businesses and accounting students understand spending patterns.
+My project, SmartExpense AI, proposes an intelligent expense categorization system using artificial intelligence and machine learning. My aim is to simplify accounting, reduce manual data entry, and help small businesses make better financial decisions.
 
 ## 2. Background
 
