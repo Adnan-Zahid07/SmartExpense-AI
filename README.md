@@ -2,7 +2,9 @@
 
 ![SmartExpense AI project banner](assets/banner.svg)
 
-**Building AI course project** · Concept proposal · Machine learning / Accounting
+Final project for the Building AI course
+
+**Concept proposal** · Machine learning / Accounting
 
 > My vision is to make everyday bookkeeping simpler, more consistent and easier to understand.
 
@@ -10,17 +12,29 @@
 
 ---
 
-## 1. Summary
+## Summary
 
-My project, SmartExpense AI, proposes an intelligent expense categorization system using artificial intelligence and machine learning. My aim is to simplify accounting, reduce manual data entry, and help small businesses make better financial decisions.
+My project, SmartExpense AI, proposes using machine learning to categorize business expenses from transaction descriptions. My aim is to reduce manual bookkeeping and help small businesses understand their spending patterns.
 
-## 2. Background
+## Background
 
 Small businesses often record transactions manually in spreadsheets. Sorting expenses into categories such as rent, utilities, transport and office supplies can be repetitive and prone to errors. Businesses that process transactions regularly face this problem whenever they prepare their accounts.
 
 My motivation for proposing this idea is the practical connection between artificial intelligence and accounting. I believe a simple tool could make bookkeeping more efficient without requiring expensive enterprise software.
 
-## 3. Data and AI techniques
+## How is it used?
+
+A small business owner or bookkeeper would upload a CSV file containing expense descriptions. My proposed system would suggest a category for each transaction, flag uncertain predictions and allow the user to correct them. The reviewed results could then be exported for bookkeeping or summarized by category.
+
+Accountants benefit from reduced repetitive work, while business owners gain a clearer view of expenses. Employees and customers whose information may appear in records also have an interest in privacy. Human review remains essential, especially for unusual transactions.
+
+### My proposed dashboard
+
+![Conceptual dashboard with fictional transactions](assets/dashboard.svg)
+
+This mockup shows how I envision the interface. It is a static design, not a functioning application.
+
+## Data sources and AI methods
 
 I plan to build a system that uses transaction descriptions and their correct expense categories from historical accounting records. Transaction amount could be an optional feature. I would anonymize the data to remove personal details and account numbers, and check labels for accuracy.
 
@@ -44,19 +58,7 @@ I plan to use a supervised machine learning text classifier with TF-IDF to conve
 
 The five fictional transactions total **PKR 47,200**. This chart illustrates the type of spending summary I would like my system to produce; it is not a model evaluation.
 
-## 4. How is it used?
-
-A small business owner or bookkeeper would upload a CSV file containing expense descriptions. My proposed system would suggest a category for each transaction, flag uncertain predictions and allow the user to correct them. The reviewed results could then be exported for bookkeeping or summarized by category.
-
-Accountants benefit from reduced repetitive work, while business owners gain a clearer view of expenses. Employees and customers whose information may appear in records also have an interest in privacy. Human review remains essential, especially for unusual transactions.
-
-### My proposed dashboard
-
-![Conceptual dashboard with fictional transactions](assets/dashboard.svg)
-
-This mockup shows how I envision the interface. It is a static design, not a functioning application.
-
-## 5. Challenges
+## Challenges
 
 - Ambiguous descriptions may lead to incorrect classifications.
 - Limited or imbalanced training data may reduce accuracy.
@@ -66,7 +68,7 @@ This mockup shows how I envision the interface. It is a static design, not a fun
 
 My project is currently at the idea stage. I have not trained or tested a model, and I do not claim any measured accuracy or savings.
 
-## 6. What next?
+## What next?
 
 First, I plan to create a small synthetic dataset and develop a baseline classifier. Next, I would obtain authorized, anonymized records and test the model on unseen transactions. I would consider a pilot with volunteer bookkeepers to assess usability and error rates. In the future, I would like to add multilingual descriptions (English and Urdu), receipt extraction, customizable expense categories and integration with accounting software. I would review user corrections before including them in future training data.
 
@@ -80,10 +82,10 @@ First, I plan to create a small synthetic dataset and develop a baseline classif
 | 4 · Pilot | Gather feedback from volunteer bookkeepers |
 | 5 · Expand | Explore Urdu support and accounting integrations |
 
-## 7. Acknowledgments
+## Acknowledgments
 
 - Building AI, Elements of AI, University of Helsinki and Reaktor — course and project framework: https://buildingai.elementsofai.com/
 - scikit-learn documentation — reference for proposed machine learning methods: https://scikit-learn.org/stable/
 - The transaction examples are fictional and were created for this proposal. No third-party code or datasets are included.
 
-
+I used ChatGPT to assist with drafting this project description and creating the original illustrative SVG graphics. The graphics use fictional examples and do not represent a deployed product.
