@@ -88,4 +88,3 @@ First, I plan to create a small synthetic dataset and develop a baseline classif
 - scikit-learn documentation — reference for proposed machine learning methods: https://scikit-learn.org/stable/
 - The transaction examples are fictional and were created for this proposal. No third-party code or datasets are included.
 
-I used ChatGPT to assist with drafting this project description and creating the original illustrative SVG graphics. The graphics use fictional examples and do not represent a deployed product.
